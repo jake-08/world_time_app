@@ -8,6 +8,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
 
   Map data = {};
+  Map data2 = {};
 
   @override
   Widget build(BuildContext context) {
