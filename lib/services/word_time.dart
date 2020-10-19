@@ -33,10 +33,7 @@ class WorldTime {
       //set time property
       isDaytime = now.hour > 6 && now.hour < 20 ? true : false;
       time = DateFormat.jm().format(now);
-
-      //set time property
-      isDaytime = now.hour > 6 && now.hour < 20 ? true : false;
-      time = DateFormat.jm().format(now);
+      
 
     }
     catch (e) {

@@ -8,8 +8,6 @@ void main() => runApp(MaterialApp(
   routes: {
     '/': (context) => Loading(),
     '/home': (context) => Home(),
-    '/home': (context) => Home(),
-    '/location': (context) => ChooseLocation(),
     '/location': (context) => ChooseLocation(),
   }
 ));
